@@ -92,16 +92,14 @@ content:
       - layout: left
         title: University of California, San Diego
         caption: 2023 - 2025
-        sub_title: MS Computer Science
+        sub_title: Master of Science in Computer Science
         # quote: >
         # description: | # this will include new lines to allow paragraphs
     
-    layout: list # Type of content section (list/text)
-    content:
       - layout: left
         title: University of Mumbai
         caption: 2019 - 2023
-        sub_title: BTech Computer Engineering
+        sub_title: Bachelor of Technology in Computer Engineering
         # quote: >
         description: | # this will include new lines to allow paragraphs
 

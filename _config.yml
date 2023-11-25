@@ -49,7 +49,9 @@ linkedin_username: yudhir-gala
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Yudhir and I'm currently pursuing my Master's degree in Computer Science at University of California, San Diego. As an aspiring software engineer, I have experience making software and web apps from my previous internships where I also gained teamwork and leadership skills.
-  My interest lies in backend development and machine learning. Currently, I am learning about microservice architecture and system design for scalable ML systems.
+  My interest lies in backend development and machine learning. 
+  
+  Currently, I am learning about microservice architecture and system design for scalable ML systems.
   I am most skilled in: <mark>MERN</mark> and <mark>Eating Pizza</mark>
 
 content:
@@ -57,35 +59,110 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: Network Intrusion Detection System using Autoencoders
+        link: https://github.com/yg2334/Network-Intrusion-Detection-System-using-Autoencoders
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+            url: github.com/yg2334/Network-Intrusion-Detection-System-using-Autoencoders
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        # quote: >
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          Trained an anomaly detection model based on autoencoder architecture in a semi supervised manner on CIC-IDS-2017 dataset and achieved an accuracy of 86%.
+          
+          Integrated the trained model with CICFlowMeter using Redis and Elastic Stack to provide network traffic analysis and monitoring in real time.
+      
+      - layout: top-middle
+            title: Interactive Demo App for Learning Extractive Text Summarization
+            link: https://github.com/yg2334/SMA_Vlab
+            # link_text: Project Website
+            additional_links:
+                icon: fab fa-github
+                url: https://github.com/yg2334/SMA_Vlab
+              # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+              #   icon: fab fa-github
+              #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+            # quote: >
+            description: | 
+              Developed an application that provided simulation based learning for Natural Language Processing course using Python framework Sreamlit.
+              
+              Provided interactive demo to help students understand the working of extractive text summarization using cosine similarity.
+
+      - layout: top-middle
+            title: Plant Leaf Disease Detection using Ensemble Learning
+            # link: https://github.com/yg2334/SMA_Vlab
+            # link_text: Project Website
+            # additional_links:
+            #     icon: fab fa-github
+            #     url: https://github.com/yg2334/SMA_Vlab
+              # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+              #   icon: fab fa-github
+              #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+            # quote: >
+            description: | 
+              Built an ML application to aid farmers in rural areas to detect different diseases in 12 different plant species easily and accurately in real time by just uploading the photo of the plant leaf on the application.
+              
+              Used image preprocessing techniques & ensemble learning for stacking three convolutional neural network models to improve performance and accuracy of the model.
+              
+              Made using Flask and Tensorflow.
+   
+              Dataset used: PlantVillage
+      - layout: top-middle
+            title: Library Management System
+            # link: https://github.com/yg2334/SMA_Vlab
+            # # link_text: Project Website
+            # additional_links:
+            #     icon: fab fa-github
+            #     url: https://github.com/yg2334/SMA_Vlab
+              # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+              #   icon: fab fa-github
+              #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+            # quote: >
+            description: | 
+              Took this project as a part of undergraduate course 'Object Oriented Programming Using Java'
+              
+              Created an interface using Java that allowed students to easily sign up, complete check-ins, generate reports, oversee library resources, and facilitate book borrowing.
+              
+              Learnt and leveraged concepts of object oriented programming, relational database management, data structures and algorithms.
+
+      - layout: top-middle
+            title: Search Engine for Vedas
+            # link: https://github.com/yg2334/SMA_Vlab
+            # # link_text: Project Website
+            # additional_links:
+            #     icon: fab fa-github
+            #     url: https://github.com/yg2334/SMA_Vlab
+              # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+              #   icon: fab fa-github
+              #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+            # quote: >
+            description: | 
+              Built this project when I participated in the Smart India Hackathon 2022.
+
+              Built a search engine using Elasticsearch, fscrawler and Flask which effectively searches phrases in Vedic literature and outputs all related mantras by creating database indexes for faster information retrieval.
+
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
+        title: Center of Excellence in Complex Non-Linear Dynamical Systems (CoE-CNDS) - VJTI, Mumbai, India
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        sub_title: Development Intern
+        caption: December 2020 - April 2021
+        # quote: >
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
-
+          Worked in the cyber-physical systems security lab for developing tools for analzing honeypot server logs.
+          
+          Created an interactive dashboard that allows researchers to visualize and analyze real-time honeypot server logs.
+          
+          Added a script that improved the data collection feature of the lab’s research honeypot by increasing granularity of the logs collected.
+          
+          Enhanced researchers’ capacity to efficiently and effectively examine and interpret interactions between intruders and the honeypot server.
+          
+          Skills Gained: Web Development, Python, Javascript, Redis, Wireshark  
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -94,26 +171,33 @@ content:
         caption: 2023 - 2025
         sub_title: Master of Science in Computer Science
         # quote: >
-        # description: | # this will include new lines to allow paragraphs
-    
+        description: | # this will include new lines to allow paragraphs
+          Selected Coursework:
+          
+          Fall 2023 - Computer Vision, Recommender System & Web Mining, Probabilistic Reasoning & Learning
+
+          Winter 2024 - Design and Analysis of Algorithms, Data Systems for Machine Learning, Unsupervised Learning 
+
       - layout: left
         title: University of Mumbai
         caption: 2019 - 2023
         sub_title: Bachelor of Technology in Computer Engineering
         # quote: >
         description: | # this will include new lines to allow paragraphs
+          Relevant Coursework: 
+          
+          Analysis of Algorithms, Operating Systems, Database Management System, Computer Networks, Software Engineering, Data Warehousing, Cryptography & System Security, Machine Learning, Big Data Analytics and Distributed Computing
 
-  - title: A Little More About Me
+  - title: Technical Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      - Languages =  C, C++, Python, Javascript, Java
+      - Tools = Github, Elastic (ELK) Stack, d3.js, Pandas, Numpy, PyTorch, HTML/CSS, React.js , Unit.js, Docker
+      - Databases = MySQL, MongoDB, Elasticsearch
+      - Frameworks =  MERN Stack, Flask, Tornado
+      - MOOCS = Front-End Web Dev, HKUST U, Coursera (2021) ; Neural Networks & Deep Learning, DeepLearning.ai (2022)
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      
 
 # Footer
 footer_show_references: true

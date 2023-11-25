@@ -109,6 +109,7 @@ content:
               Made using Flask and Tensorflow.
    
               Dataset used: PlantVillage
+
       - layout: top-middle
             title: Library Management System
             # link: https://github.com/yg2334/SMA_Vlab
@@ -158,11 +159,12 @@ content:
           
           Created an interactive dashboard that allows researchers to visualize and analyze real-time honeypot server logs.
           
-          Added a script that improved the data collection feature of the lab’s research honeypot by increasing granularity of the logs collected.
+          Added a script that improved the data collection feature of the lab's research honeypot by increasing granularity of the logs collected.
           
-          Enhanced researchers’ capacity to efficiently and effectively examine and interpret interactions between intruders and the honeypot server.
+          Enhanced researchers' capacity to efficiently and effectively examine and interpret interactions between intruders and the honeypot server.
           
-          Skills Gained: Web Development, Python, Javascript, Redis, Wireshark  
+          Skills Gained: Web Development, Python, Javascript, Redis, Wireshark 
+
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:

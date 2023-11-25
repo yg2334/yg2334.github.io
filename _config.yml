@@ -46,7 +46,7 @@ linkedin_username: yudhir-gala
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/pg2.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Yudhir and I'm currently pursuing my Master's degree in Computer Science at University of California, San Diego. As an aspiring software engineer, I have experience making software and web apps from my previous internships where I also gained teamwork and leadership skills.
   My interest lies in backend development and machine learning. 
@@ -59,8 +59,9 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+        border: weak
         title: Network Intrusion Detection System using Autoencoders
-        link: https://github.com/yg2334/Network-Intrusion-Detection-System-using-Autoencoders
+        # link: https://github.com/yg2334/Network-Intrusion-Detection-System-using-Autoencoders
         # link_text: Project Website
         additional_links:
             icon: fab fa-github
@@ -75,8 +76,9 @@ content:
           Integrated the trained model with CICFlowMeter using Redis and Elastic Stack to provide network traffic analysis and monitoring in real time.
       
       - layout: top-middle
+        border: weak
         title: Interactive Demo App for Learning Extractive Text Summarization
-        link: https://github.com/yg2334/SMA_Vlab
+        # link: https://github.com/yg2334/SMA_Vlab
         # link_text: Project Website
         additional_links:
             icon: fab fa-github
@@ -91,6 +93,7 @@ content:
           Provided interactive demo to help students understand the working of extractive text summarization using cosine similarity.
 
       - layout: top-middle
+        border: weak
         title: Plant Leaf Disease Detection using Ensemble Learning
         # link: https://github.com/yg2334/SMA_Vlab
         # link_text: Project Website
@@ -111,6 +114,7 @@ content:
           Dataset used: PlantVillage
 
       - layout: top-middle
+        border: weak
         title: Library Management System
         # link: https://github.com/yg2334/SMA_Vlab
         # # link_text: Project Website
@@ -129,6 +133,7 @@ content:
           Learnt and leveraged concepts of object oriented programming, relational database management, data structures and algorithms.
 
       - layout: top-middle
+        border: weak
         title: Search Engine for Vedas
         # link: https://github.com/yg2334/SMA_Vlab
         # # link_text: Project Website
@@ -149,7 +154,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Center of Excellence in Complex Non-Linear Dynamical Systems (CoE-CNDS) - VJTI, Mumbai, India
+        title: CoE-CNDS Laboratory - VJTI, Mumbai, India
         # link_text: boringcompany.com
         sub_title: Development Intern
         caption: December 2020 - April 2021

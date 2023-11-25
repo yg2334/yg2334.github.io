@@ -75,74 +75,74 @@ content:
           Integrated the trained model with CICFlowMeter using Redis and Elastic Stack to provide network traffic analysis and monitoring in real time.
       
       - layout: top-middle
-            title: Interactive Demo App for Learning Extractive Text Summarization
-            link: https://github.com/yg2334/SMA_Vlab
-            # link_text: Project Website
-            additional_links:
-                icon: fab fa-github
-                url: https://github.com/yg2334/SMA_Vlab
-              # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-              #   icon: fab fa-github
-              #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-            # quote: >
-            description: | 
-              Developed an application that provided simulation based learning for Natural Language Processing course using Python framework Sreamlit.
-              
-              Provided interactive demo to help students understand the working of extractive text summarization using cosine similarity.
+        title: Interactive Demo App for Learning Extractive Text Summarization
+        link: https://github.com/yg2334/SMA_Vlab
+        # link_text: Project Website
+        additional_links:
+            icon: fab fa-github
+            url: https://github.com/yg2334/SMA_Vlab
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: >
+        description: | 
+          Developed an application that provided simulation based learning for Natural Language Processing course using Python framework Sreamlit.
+          
+          Provided interactive demo to help students understand the working of extractive text summarization using cosine similarity.
 
       - layout: top-middle
-            title: Plant Leaf Disease Detection using Ensemble Learning
-            # link: https://github.com/yg2334/SMA_Vlab
-            # link_text: Project Website
-            # additional_links:
-            #     icon: fab fa-github
-            #     url: https://github.com/yg2334/SMA_Vlab
-              # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-              #   icon: fab fa-github
-              #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-            # quote: >
-            description: | 
-              Built an ML application to aid farmers in rural areas to detect different diseases in 12 different plant species easily and accurately in real time by just uploading the photo of the plant leaf on the application.
-              
-              Used image preprocessing techniques & ensemble learning for stacking three convolutional neural network models to improve performance and accuracy of the model.
-              
-              Made using Flask and Tensorflow.
-   
-              Dataset used: PlantVillage
+        title: Plant Leaf Disease Detection using Ensemble Learning
+        # link: https://github.com/yg2334/SMA_Vlab
+        # link_text: Project Website
+        # additional_links:
+        #     icon: fab fa-github
+        #     url: https://github.com/yg2334/SMA_Vlab
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: >
+        description: | 
+          Built an ML application to aid farmers in rural areas to detect different diseases in 12 different plant species easily and accurately in real time by just uploading the photo of the plant leaf on the application.
+          
+          Used image preprocessing techniques & ensemble learning for stacking three convolutional neural network models to improve performance and accuracy of the model.
+          
+          Made using Flask and Tensorflow.
+
+          Dataset used: PlantVillage
 
       - layout: top-middle
-            title: Library Management System
-            # link: https://github.com/yg2334/SMA_Vlab
-            # # link_text: Project Website
-            # additional_links:
-            #     icon: fab fa-github
-            #     url: https://github.com/yg2334/SMA_Vlab
-              # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-              #   icon: fab fa-github
-              #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-            # quote: >
-            description: | 
-              Took this project as a part of undergraduate course 'Object Oriented Programming Using Java'
-              
-              Created an interface using Java that allowed students to easily sign up, complete check-ins, generate reports, oversee library resources, and facilitate book borrowing.
-              
-              Learnt and leveraged concepts of object oriented programming, relational database management, data structures and algorithms.
+        title: Library Management System
+        # link: https://github.com/yg2334/SMA_Vlab
+        # # link_text: Project Website
+        # additional_links:
+        #     icon: fab fa-github
+        #     url: https://github.com/yg2334/SMA_Vlab
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: >
+        description: | 
+          Took this project as a part of undergraduate course 'Object Oriented Programming Using Java'
+          
+          Created an interface using Java that allowed students to easily sign up, complete check-ins, generate reports, oversee library resources, and facilitate book borrowing.
+          
+          Learnt and leveraged concepts of object oriented programming, relational database management, data structures and algorithms.
 
       - layout: top-middle
-            title: Search Engine for Vedas
-            # link: https://github.com/yg2334/SMA_Vlab
-            # # link_text: Project Website
-            # additional_links:
-            #     icon: fab fa-github
-            #     url: https://github.com/yg2334/SMA_Vlab
-              # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-              #   icon: fab fa-github
-              #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-            # quote: >
-            description: | 
-              Built this project when I participated in the Smart India Hackathon 2022.
+        title: Search Engine for Vedas
+        # link: https://github.com/yg2334/SMA_Vlab
+        # # link_text: Project Website
+        # additional_links:
+        #     icon: fab fa-github
+        #     url: https://github.com/yg2334/SMA_Vlab
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # quote: >
+        description: | 
+          Built this project when I participated in the Smart India Hackathon 2022.
 
-              Built a search engine using Elasticsearch, fscrawler and Flask which effectively searches phrases in Vedic literature and outputs all related mantras by creating database indexes for faster information retrieval.
+          Built a search engine using Elasticsearch, fscrawler and Flask which effectively searches phrases in Vedic literature and outputs all related mantras by creating database indexes for faster information retrieval.
 
 
   - title: Experience # Title for the section

@@ -46,7 +46,7 @@ linkedin_username: yudhir-gala
 
 # About Section
 # about_title: About Me
-about_profile_image: images/pg2.jpg
+about_profile_image: images/pg1.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Yudhir and I'm currently pursuing my Master's degree in Computer Science at University of California, San Diego. As an aspiring software engineer, I have experience making software and web apps from my previous internships where I also gained teamwork and leadership skills.
   My interest lies in backend development and machine learning. 

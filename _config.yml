@@ -72,7 +72,7 @@ content:
     
       - layout: top-middle
         border: weak
-        title:  SurfStore : DropBox Based Clone
+        title:  SurfStore- DropBox Based Clone
         additional_links:
           - icon: fab fa-github
             url: https://github.com/yg2334/fault-tolerant-NFS.git

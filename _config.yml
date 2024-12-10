@@ -21,12 +21,11 @@ linkedin_username: yudhir-gala
 # Profile Section
 about_profile_image: images/pg3.jpg
 about_content: | 
-  Hi, I’m Yudhir, a Master’s student in Computer Science at the University of California, San Diego. As an aspiring software engineer, I have developed robust applications and web solutions during internships, gaining teamwork and leadership experience along the way. 
+  Hello! I'm Yudhir Hiren Gala, a Master's student in Computer Science at the University of California, San Diego. With a strong foundation in software engineering, my professional journey has been driven by a passion for creating impactful software solutions and web applications. 
 
-  My core interests are in backend development and machine learning, and I am currently exploring microservice architecture and scalable ML system design.
+  I specialize in backend development and machine learning, and I thrive in environments where teamwork and leadership are integral to success. My previous internships have equipped me with the skills to work on complex projects and deliver results effectively.
 
-  Key Skills: <mark>MERN</mark>, <mark>Backend Development</mark>, and <mark>Pizza Enthusiast</mark>
-
+  Currently, I am delving into microservice architecture and system design for scalable machine learning systems. My technical expertise includes the MERN stack, Python, and cloud-based technologies. Beyond work, I enjoy exploring innovative tech solutions and, of course, indulging in a slice of pizza.
       
 content:
   # Education Section
@@ -42,7 +41,7 @@ content:
             - Fall 2024: Statistical Natural Language Processing, Research (WIFIRE Lab, SDSC)
             - Spring 2024: Graduate Networked Systems, Parallel Computation 
             - Winter 2024: Algorithm Design & Analysis, Data Systems for ML, Unsupervised Learning
-            - Fall 2023: Probabilistic Reasoning & Learning, Computer Vision 1 , Recommender System & Web Mining (Professor Julian McAuley)
+            - Fall 2023: Probabilistic Reasoning & Learning, Computer Vision, Recommender System & Web Mining 
             
 
       - layout: left

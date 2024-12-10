@@ -27,11 +27,84 @@ about_content: |
 
   Key Skills: <mark>MERN</mark>, <mark>Backend Development</mark>, and <mark>Pizza Enthusiast</mark>
 
+ # Education Section
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: University of California, San Diego
+        sub_title: Master of Science in Computer Science
+        caption: 2023 - 2025
+        description: |
+          - Selected Coursework:
+            - Fall 2024: Statistical Natural Language Processing, Research (WIFIRE Lab, SDSC)
+            - Spring 2024: Graduate Networked Systems, Parallel Computation 
+            - Winter 2024: Algorithm Design & Analysis, Data Systems for ML, Unsupervised Learning
+            - Fall 2023: Probabilistic Reasoning & Learning, Computer Vision 1 , Recommender System & Web Mining (Professor Julian McAuley)
+            
+
+      - layout: left
+        title: University of Mumbai
+        sub_title: Bachelor of Technology in Computer Engineering
+        caption: 2019 - 2023
+        description: |
+          - Relevant Coursework: Algorithms & Data Structures, Operating System , Database Management Systems, Networks, Cryptography, Big Data Analytics, Machine Learning
+
+# Technical Skills
+  - title: Technical Skills
+    layout: text
+    content: |
+      - **Languages**: C, C++, Python, JavaScript, Java  
+      - **Tools**: GitHub, ELK Stack, d3.js, Pandas, PyTorch, React.js, Docker  
+      - **Databases**: MySQL, MongoDB, Elasticsearch  
+      - **Frameworks**: MERN Stack, Flask
+      - **Cloud Technologies**: AWS EC2, S3, Docker
+      - **Certifications**:   
+        - Front-End Web Dev, HKUST (2021)  
+        - Neural Networks & Deep Learning, DeepLearning.ai (2022)
+      
 content:
   # Projects Section
   - title: Projects
     layout: list
     content:
+    
+      - layout: top-middle
+        border: weak
+        title:  SurfStore : DropBox Based Clone
+        additional_links:
+          - icon: fab fa-github
+            url: https://github.com/yg2334/fault-tolerant-NFS.git
+        description: |
+          - Developed a scalable and fault-tolerant networked file storage application in Go, allowing users to seamlessly sync files to and from the cloud.
+          - Designed a distributed system architecture using consistent hashing to ensure efficient data distribution and scalability.
+          - Implemented the RAFT consensus algorithm to achieve fault tolerance.
+          - Tools: Go, ProtoBuf
+
+      - layout: top-middle
+        border: weak
+        title: Scaling Electro-Cardiac Simulation Algorithm Using MPI
+        additional_links:
+          - icon: fab fa-github
+            url: https://github.com/yg2334/MPI-Parallelized-Aliev-Panfilov-Simulation.git
+        description: |
+          - Used MPI to enhance the scalability of cardiac simulation algorithm for biomedical research.
+          - Optimized communication and exploited spatial locality techniques to reduce delays.
+          - Conducted strong and weak scaling studies, achieving efficiency greater than 1.0 and a peak performance of 1.96 Tflops/s with 384 cores.
+          - Tools: OpenMPI, C++
+
+
+      - layout: top-middle
+        border: weak
+        title: Optimized Matrix Calculations Using GPU Acceleration (CUDA)
+        additional_links:
+          - icon: fab fa-github
+            url: https://github.com/yg2334/Matrix-Multiplication-on-GPU-with-CUDA.git
+        description: |
+          - Optimized square matrix operations on a single NVIDIA T104 GPU, achieving 3.6 TFlops/s on 4096-sized matrices.
+          - Improved performance by leveraging shared memory, advanced GPU architecture and increased instruction-level parallelism.
+          - Tools: CUDA, C
+
       - layout: top-middle
         border: weak
         title: Network Intrusion Detection System using Autoencoders
@@ -41,7 +114,18 @@ content:
         description: |
           - Developed an anomaly detection model using an autoencoder architecture trained on the CIC-IDS-2017 dataset, achieving 86% accuracy.
           - Integrated the model with CICFlowMeter using Redis and Elastic Stack to enable real-time network traffic monitoring.
+          - Tools: PyTorch, Redis
 
+      - layout: top-middle
+        border: weak
+        title: Library Management System
+        description: |
+          - Developed a user-friendly front-end interface with Java Swing, enhancing usability and navigation.
+          - Designed optimized MySQL schema using normalization for data integrity, minimizing redundancy.
+          - Implemented the designed schema, improving system performance by enhancing data storage and retrieval efficiency.
+          - Utilized Java multithreading for concurrent operations, enhancing system responsiveness
+          - Tools: Java, MySQL
+          
       - layout: top-middle
         border: weak
         title: Interactive Demo App for Learning Extractive Text Summarization
@@ -59,13 +143,6 @@ content:
           - Built a Flask-based app to help farmers identify plant diseases in real time using uploaded leaf images.
           - Leveraged image preprocessing and ensemble learning, combining three convolutional neural networks for improved performance.
           - Dataset: PlantVillage | Tools: Flask, TensorFlow
-
-      - layout: top-middle
-        border: weak
-        title: Library Management System
-        description: |
-          - Developed a Java-based system for a course project that simplifies library resource management, check-ins, and book borrowing.
-          - Applied object-oriented programming, relational database management, and algorithmic principles.
 
       - layout: top-middle
         border: weak
@@ -87,37 +164,15 @@ content:
           - Enhanced the lab's honeypot data collection, increasing log granularity for detailed analysis.
           - Skills: Web Development, Python, JavaScript, Redis, Wireshark
 
-  # Education Section
-  - title: Education
-    layout: list
-    content:
       - layout: left
-        title: University of California, San Diego
-        sub_title: Master of Science in Computer Science
-        caption: 2023 - 2025
+        title: WIFIRE Lab, San Diego Supercomputer Center
+        sub_title: Graduate Student Researcher
+        caption: April 2024 - Present
         description: |
-          - Selected Coursework:
-            - Fall 2023: Computer Vision, Recommender Systems, Probabilistic Reasoning
-            - Winter 2024: Design and Analysis of Algorithms, Data Systems for ML, Unsupervised Learning
-
-      - layout: left
-        title: University of Mumbai
-        sub_title: Bachelor of Technology in Computer Engineering
-        caption: 2019 - 2023
-        description: |
-          - Relevant Coursework: Algorithms, OS, DBMS, Networks, Cryptography, Big Data Analytics, Machine Learning
-
-  # Technical Skills
-  - title: Technical Skills
-    layout: text
-    content: |
-      - **Languages**: C, C++, Python, JavaScript, Java  
-      - **Tools**: GitHub, ELK Stack, d3.js, Pandas, PyTorch, React.js, Docker  
-      - **Databases**: MySQL, MongoDB, Elasticsearch  
-      - **Frameworks**: MERN Stack, Flask, Tornado  
-      - **Certifications**: 
-        - Front-End Web Dev, HKUST (2021)  
-        - Neural Networks & Deep Learning, DeepLearning.ai (2022)
+          -  Conducted research on a 234GB dataset with 1155 samples, each 600 seconds long, to predict future fire spread sequences based on fuel density and environmental conditions.
+          -  Utilized a ConvLSTM model in TensorFlow and a Physics Guided loss function to achieve a significant 66.67% improvement in MSE, reducing it from 0.0126 to 0.0042.
+ 
+  
 
 # Footer Settings
 footer_show_references: true

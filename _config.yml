@@ -1,221 +1,129 @@
-# Site
+# Portfolio Site Configuration
 repository: sproogen/resume-theme
 favicon: images/favicon.ico
 
-# Content configuration version
+# Content Configuration Version
 version: 2
 
-# Personal info
+# Personal Info
 name: Yudhir Hiren Gala
 title: Software Engineer
 email: ygala@ucsd.edu
 website: www.github.com/yg2334/
 
-# Dark Mode (true/false/never)
+# Theme Settings
 darkmode: false
 
-# Social links
-#twitter_username: facespics
-github_username:  yg2334
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: jameswgrant
+# Social Links
+github_username: yg2334
 linkedin_username: yudhir-gala
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
 
-# Additional icon links
-# additional_links:
-# - title: itsgoingto.be
-#   icon: fas fa-globe
-#   url: https://www.itsgoingto.be
-# # - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
-# About Section
-# about_title: About Me
+# Profile Section
 about_profile_image: images/pg3.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Yudhir and I'm currently pursuing my Master's degree in Computer Science at University of California, San Diego. As an aspiring software engineer, I have experience making software and web apps from my previous internships where I also gained teamwork and leadership skills.
-  My interest lies in backend development and machine learning. 
-  
-  Currently, I am learning about microservice architecture and system design for scalable ML systems.
-  I am most skilled in: <mark>MERN</mark> and <mark>Eating Pizza</mark>
+about_content: | 
+  Hi, I’m Yudhir, a Master’s student in Computer Science at the University of California, San Diego. As an aspiring software engineer, I have developed robust applications and web solutions during internships, gaining teamwork and leadership experience along the way. 
+
+  My core interests are in backend development and machine learning, and I am currently exploring microservice architecture and scalable ML system design.
+
+  Key Skills: <mark>MERN</mark>, <mark>Backend Development</mark>, and <mark>Pizza Enthusiast</mark>
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  # Projects Section
+  - title: Projects
+    layout: list
     content:
       - layout: top-middle
         border: weak
         title: Network Intrusion Detection System using Autoencoders
-        # link: https://github.com/yg2334/Network-Intrusion-Detection-System-using-Autoencoders
-        # link_text: Project Website
         additional_links:
-            icon: fab fa-github
-            url: github.com/yg2334/Network-Intrusion-Detection-System-using-Autoencoders
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        # quote: >
-        description: | # this will include new lines to allow paragraphs
-          Trained an anomaly detection model based on autoencoder architecture in a semi supervised manner on CIC-IDS-2017 dataset and achieved an accuracy of 86%.
-          
-          Integrated the trained model with CICFlowMeter using Redis and Elastic Stack to provide network traffic analysis and monitoring in real time.
-      
+          - icon: fab fa-github
+            url: https://github.com/yg2334/Network-Intrusion-Detection-System-using-Autoencoders
+        description: |
+          - Developed an anomaly detection model using an autoencoder architecture trained on the CIC-IDS-2017 dataset, achieving 86% accuracy.
+          - Integrated the model with CICFlowMeter using Redis and Elastic Stack to enable real-time network traffic monitoring.
+
       - layout: top-middle
         border: weak
         title: Interactive Demo App for Learning Extractive Text Summarization
-        # link: https://github.com/yg2334/SMA_Vlab
-        # link_text: Project Website
         additional_links:
-            icon: fab fa-github
+          - icon: fab fa-github
             url: https://github.com/yg2334/SMA_Vlab
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        # quote: >
-        description: | 
-          Developed an application that provided simulation based learning for Natural Language Processing course using Python framework Sreamlit.
-          
-          Provided interactive demo to help students understand the working of extractive text summarization using cosine similarity.
+        description: |
+          - Designed a Streamlit-based application for interactive learning of extractive text summarization in an NLP course.
+          - Implemented cosine similarity to provide visual simulations, enhancing students' understanding.
 
       - layout: top-middle
         border: weak
         title: Plant Leaf Disease Detection using Ensemble Learning
-        # link: https://github.com/yg2334/SMA_Vlab
-        # link_text: Project Website
-        # additional_links:
-        #     icon: fab fa-github
-        #     url: https://github.com/yg2334/SMA_Vlab
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        # quote: >
-        description: | 
-          Built an ML application to aid farmers in rural areas to detect different diseases in 12 different plant species easily and accurately in real time by just uploading the photo of the plant leaf on the application.
-          
-          Used image preprocessing techniques & ensemble learning for stacking three convolutional neural network models to improve performance and accuracy of the model.
-          
-          Made using Flask and Tensorflow.
-
-          Dataset used: PlantVillage
+        description: |
+          - Built a Flask-based app to help farmers identify plant diseases in real time using uploaded leaf images.
+          - Leveraged image preprocessing and ensemble learning, combining three convolutional neural networks for improved performance.
+          - Dataset: PlantVillage | Tools: Flask, TensorFlow
 
       - layout: top-middle
         border: weak
         title: Library Management System
-        # link: https://github.com/yg2334/SMA_Vlab
-        # # link_text: Project Website
-        # additional_links:
-        #     icon: fab fa-github
-        #     url: https://github.com/yg2334/SMA_Vlab
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        # quote: >
-        description: | 
-          Took this project as a part of undergraduate course 'Object Oriented Programming Using Java'
-          
-          Created an interface using Java that allowed students to easily sign up, complete check-ins, generate reports, oversee library resources, and facilitate book borrowing.
-          
-          Learnt and leveraged concepts of object oriented programming, relational database management, data structures and algorithms.
+        description: |
+          - Developed a Java-based system for a course project that simplifies library resource management, check-ins, and book borrowing.
+          - Applied object-oriented programming, relational database management, and algorithmic principles.
 
       - layout: top-middle
         border: weak
         title: Search Engine for Vedas
-        # link: https://github.com/yg2334/SMA_Vlab
-        # # link_text: Project Website
-        # additional_links:
-        #     icon: fab fa-github
-        #     url: https://github.com/yg2334/SMA_Vlab
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        # quote: >
-        description: | 
-          Built this project when I participated in the Smart India Hackathon 2022.
+        description: |
+          - Created a Flask-based search engine using Elasticsearch and fscrawler for phrase-based searches in Vedic literature.
+          - Participated in the Smart India Hackathon 2022, optimizing information retrieval with database indexing.
 
-          Built a search engine using Elasticsearch, fscrawler and Flask which effectively searches phrases in Vedic literature and outputs all related mantras by creating database indexes for faster information retrieval.
-
-
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+  # Experience Section
+  - title: Experience
+    layout: list
     content:
       - layout: left
         title: CoE-CNDS Laboratory - VJTI, Mumbai, India
-        # link_text: boringcompany.com
         sub_title: Development Intern
         caption: December 2020 - April 2021
-        # quote: >
-        description: | # this will include new lines to allow paragraphs
-          Worked in the cyber-physical systems security lab for developing tools for analzing honeypot server logs.
-          
-          Created an interactive dashboard that allows researchers to visualize and analyze real-time honeypot server logs.
-          
-          Added a script that improved the data collection feature of the lab's research honeypot by increasing granularity of the logs collected.
-          
-          Enhanced researchers' capacity to efficiently and effectively examine and interpret interactions between intruders and the honeypot server.
-          
-          Skills Gained: Web Development, Python, Javascript, Redis, Wireshark 
+        description: |
+          - Developed a dashboard for visualizing honeypot server logs in real time, aiding research in cyber-physical systems security.
+          - Enhanced the lab's honeypot data collection, increasing log granularity for detailed analysis.
+          - Skills: Web Development, Python, JavaScript, Redis, Wireshark
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+  # Education Section
+  - title: Education
+    layout: list
     content:
       - layout: left
         title: University of California, San Diego
-        caption: 2023 - 2025
         sub_title: Master of Science in Computer Science
-        # quote: >
-        description: | # this will include new lines to allow paragraphs
-          Selected Coursework:
-          
-          Fall 2023 - Computer Vision, Recommender System & Web Mining, Probabilistic Reasoning & Learning
-
-          Winter 2024 - Design and Analysis of Algorithms, Data Systems for Machine Learning, Unsupervised Learning 
+        caption: 2023 - 2025
+        description: |
+          - Selected Coursework:
+            - Fall 2023: Computer Vision, Recommender Systems, Probabilistic Reasoning
+            - Winter 2024: Design and Analysis of Algorithms, Data Systems for ML, Unsupervised Learning
 
       - layout: left
         title: University of Mumbai
-        caption: 2019 - 2023
         sub_title: Bachelor of Technology in Computer Engineering
-        # quote: >
-        description: | # this will include new lines to allow paragraphs
-          Relevant Coursework: 
-          
-          Analysis of Algorithms, Operating Systems, Database Management System, Computer Networks, Software Engineering, Data Warehousing, Cryptography & System Security, Machine Learning, Big Data Analytics and Distributed Computing
+        caption: 2019 - 2023
+        description: |
+          - Relevant Coursework: Algorithms, OS, DBMS, Networks, Cryptography, Big Data Analytics, Machine Learning
 
+  # Technical Skills
   - title: Technical Skills
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      - Languages =  C, C++, Python, Javascript, Java
-      - Tools = Github, Elastic (ELK) Stack, d3.js, Pandas, Numpy, PyTorch, HTML/CSS, React.js , Unit.js, Docker
-      - Databases = MySQL, MongoDB, Elasticsearch
-      - Frameworks =  MERN Stack, Flask, Tornado
-      - MOOCS = Front-End Web Dev, HKUST U, Coursera (2021) ; Neural Networks & Deep Learning, DeepLearning.ai (2022)
+    content: |
+      - **Languages**: C, C++, Python, JavaScript, Java  
+      - **Tools**: GitHub, ELK Stack, d3.js, Pandas, PyTorch, React.js, Docker  
+      - **Databases**: MySQL, MongoDB, Elasticsearch  
+      - **Frameworks**: MERN Stack, Flask, Tornado  
+      - **Certifications**: 
+        - Front-End Web Dev, HKUST (2021)  
+        - Neural Networks & Deep Learning, DeepLearning.ai (2022)
 
-      
-
-# Footer
+# Footer Settings
 footer_show_references: true
-# references_title: References on request (Override references text)
-
-# Build settings
 remote_theme: sproogen/resume-theme
-
 sass:
   sass_dir: _sass
   style: compressed
-
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag

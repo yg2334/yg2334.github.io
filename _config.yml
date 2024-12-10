@@ -27,7 +27,9 @@ about_content: |
 
   Key Skills: <mark>MERN</mark>, <mark>Backend Development</mark>, and <mark>Pizza Enthusiast</mark>
 
- # Education Section
+      
+content:
+  # Education Section
   - title: Education
     layout: list
     content:
@@ -49,8 +51,8 @@ about_content: |
         caption: 2019 - 2023
         description: |
           - Relevant Coursework: Algorithms & Data Structures, Operating System , Database Management Systems, Networks, Cryptography, Big Data Analytics, Machine Learning
-
-# Technical Skills
+  
+  # Technical Skills
   - title: Technical Skills
     layout: text
     content: |
@@ -62,8 +64,7 @@ about_content: |
       - **Certifications**:   
         - Front-End Web Dev, HKUST (2021)  
         - Neural Networks & Deep Learning, DeepLearning.ai (2022)
-      
-content:
+        
   # Projects Section
   - title: Projects
     layout: list
